@@ -149,7 +149,7 @@ static uint8_t _w65c02dasm_ops[4][8][8] = {
 /* cc = 00 */
 {
     //---  BIT   JMP   JMP() STY   LDY   CPY   CPX
-    {A____,A_JSR,A____,A____,A_IMM,A_IMM,A_IMM,A_IMM},
+    {A____,A_JSR,A____,A____,A_BRA,A_IMM,A_IMM,A_IMM},
     {A_ZER,A_ZER,A_NO2,A_ZER,A_ZER,A_ZER,A_ZER,A_ZER},
     {A____,A____,A____,A____,A____,A____,A____,A____},
     {A_ABS,A_ABS,A_JMP,A_JMP,A_ABS,A_ABS,A_ABS,A_ABS},
@@ -190,7 +190,7 @@ static uint8_t _w65c02dasm_ops[4][8][8] = {
     {A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR},
     {A____,A____,A____,A____,A____,A____,A____,A____},
     {A_ZER,A_ZER,A_ZER,A_ZER,A_ZER,A_ZER,A_ZER,A_ZER},
-    {A____,A____,A____,A____,A____,A____,A_ABY,A____},
+    {A____,A____,A____,A____,A____,A____,A____,A____},
     {A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR,A_ZPR}
 } };
 
